@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+
+
+<body>
+<a href="https://www.iiit.ac.in/"target="https://www.iiit.ac.in/"><img src="iiit-new.png" style="width:100px;height:100px;margin-left:0px;"></a>
+<a href="https://serc.iiit.ac.in/rdip"target="https://serc.iiit.ac.in/rdip"" style="float: right;font-size: 30px;font-family: bold;padding-right: 30px;padding-top: 30px;" >RDIP</a><br><br>
+	
+<div class="topnav">
+  <a class="active" href="homepage.html">Home</a>
+  <a href="registration.html">Registration Form</a>
+</div>
+
+<div style="padding-left:16px">
+  
+  
+</div>
+<form style="padding-top: 25px; padding-left: 50px;" method="GET" action="details.html">
+
+		First Name:<input type="text" name="fname" required><br><br>
+		Email:<input type="text" name="email"required><br><br>		
+		Phone Number:<input type="text" name="Phone No"required><br><br>
+		Gender:<br><br><input type="radio" name="gender" value="male"required> Male<br><br>
+ 		<input type="radio" name="gender" value="female"required> Female<br><br>
+ 		<input type="radio" name="gender" value="other"required>Other<br><br>
+ 		Reason for RDIP:<br><br><input type="checkbox" name="reason" value="html"required>HTML<br><br> 
+ 		<input type="checkbox" name="reason" value="css"required>CSS<br><br>
+ 		<input type="checkbox" name="reason" value="js"required>JavaScript<br><br>
+ 		College: <input type="text" name="college"required><br><br>
+ 		<input type="checkbox" id="declare" name="declare" value="declare"required>
+  		<label for="declare"> I declare above details given by me are true</label><br><br>
+  		<input type="submit" name="submit" value="Submit">
+  		<input type="reset" name="reset" value="Reset"><a href="registration.html"></a>
+  
+
+	</form>
+
+
+</body>
+</html>
